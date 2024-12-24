@@ -14,3 +14,15 @@ Before running the tests, ensure you have the following installed:
 
 - **Node.js** (version 14 or higher)
 - **Playwright** package installed in your project
+
+# Playwright installation: 
+
+- npm install
+
+## To Execute the test script, enter the below command in the terminal(in head mode)
+
+- npx playwright test Login.spec.js --project=chromium --headed
+
+## To get the detailed report enter the below command in terminal
+
+- npx playwright test --reporter=html
