@@ -35,7 +35,7 @@ test.describe('Login function test', () => {
         }
         catch (error) {
             console.error("Handling the error ", error);
-            throw new Error("Invalid credentials handling test failed");
+            throw new Error("Invalid credentials handling - Test failed");
         }
     });
 });
